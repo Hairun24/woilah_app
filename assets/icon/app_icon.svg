@@ -1,0 +1,21 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" rx="220" fill="#121212"/>
+  <rect x="72" y="72" width="880" height="880" rx="190" fill="url(#bgGrad)" fill-opacity="0.96"/>
+  <path d="M240 690V334C240 316.327 254.327 302 272 302H342L458 490L566 302H640C657.673 302 672 316.327 672 334V690C672 707.673 657.673 722 640 722H272C254.327 722 240 707.673 240 690Z" fill="url(#panelGrad)"/>
+  <path d="M310 650L310 410L392 520L474 410V650H310Z" fill="white" fill-opacity="0.92"/>
+  <path d="M514 650V410L596 520L678 410V650H514Z" fill="white" fill-opacity="0.92"/>
+  <path d="M230 760C365 700 474 670 512 670C550 670 690 700 794 760V820H230V760Z" fill="#1B1B1B" fill-opacity="0.7"/>
+  <circle cx="748" cy="318" r="82" fill="#8B5CF6"/>
+  <path d="M712 272L806 318L712 364V272Z" fill="white"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="104" y1="152" x2="900" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B2E83"/>
+      <stop offset="0.45" stop-color="#7144E0"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="240" y1="302" x2="672" y2="722" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F8FF"/>
+      <stop offset="1" stop-color="#E4E4F7"/>
+    </linearGradient>
+  </defs>
+</svg>

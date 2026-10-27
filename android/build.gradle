@@ -1,0 +1,14 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = project.parent.buildDir
+}
+subprojects {
+    project.name = project.parent.name
+}
